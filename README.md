@@ -1,7 +1,8 @@
-# IERY Python Fall 23 Applications GitHub Reporsitory
+# IERY Python Fall 23 Applications GitHub Repository
 
-# Task 1: Email Automation Setup and Test Message Sending
-## In this task, you will be setting up an email automation system using a selected API or library. You'll create a dedicated Python file within the project repository, known as the "Gmail_library" to facilitate email sending. Furthermore, you will integrate this library with the main application, allowing users to input a message subject and body for sending test emails.
+### Task 1: Email Automation Setup and Test Message Sending
+
+In this task, you will be setting up an email automation system using a selected API or library. You'll create a dedicated Python file within the project repository, known as the "Gmail_library" to facilitate email sending. Furthermore, you will integrate this library with the main application, allowing users to input a message subject and body for sending test emails.
 
 Acceptance Criteria:
 
