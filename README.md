@@ -10,14 +10,15 @@ Library Creation:
 
 Create a new Python file named gmail_library.py within the repository.
 Inside this file, develop the necessary code to interface with the chosen Gmail API or library for sending emails.
+
 Main Application Integration:
 
-Enhance the main.py file to include a user interface.
-Prompt the user to input a message subject and body.
+In the main application prompt the user to input a message subject and body and perform the automation of sending emails by just calling the gmail_library.py
+
 Function for Sending:
 
-In the main.py file, implement a function named send_test_email(subject, body) that interacts with the Gmail library you've developed.
-This function should accept the subject and body inputs as parameters and trigger the sending of a test email using the Gmail library.
+In the main.py file, implement a function named send_test_email(subject, body) that interacts with the Gmail library you've developed. This function should accept the subject and body inputs as parameters and trigger the sending of a test email using the Gmail library.
+
 Test Email:
 
 The test email should be sent to a predefined email address or to yourself for verification purposes.
