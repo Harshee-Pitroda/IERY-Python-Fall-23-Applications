@@ -1,6 +1,6 @@
 # IERY Python Fall 23 Applications GitHub Repository
 
-### Please choose one of the task you want to perform from the below mentioned tasks
+### Please choose one of the task you want to perform from the below mentioned tasks and make a pull request for your submissions
 
 ### Task 1: Email Automation Setup and Test Message Sending
 
