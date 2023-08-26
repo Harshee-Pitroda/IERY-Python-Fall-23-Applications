@@ -33,41 +33,7 @@ You receive a user prompt in the main.py application asking for the subject and 
 
 Remember: Your code should be well-organized, with clear separation between the Gmail library functions and the main application functions. This separation ensures modularity and ease of maintenance.
 
-### Task 2: SMS Automation Setup and Validation
+# ----------------------------------------------------------------------------------
 
-Description: Develop a user-friendly SMS handling system that prompts users for a phone number and a message. The system will ensure the validity of these inputs, send the message if valid, and provide notifications about the outcome. This task also requires handling cases of invalid phone numbers, invalid messages, and undeliverable messages.
-
-Acceptance Criteria:
-
-Create SMS Handling Functions:
-
-Create a new Python file named sms.py to contain your SMS handling functions.
-Implement various functions to perform the task mentioned in the description.
-
-User Interaction:
-
-Make a main.py to interact with users.
-Prompt users for a phone number and the desired message.
-
-Validation and Sending:
-
-In sms.py, ensure you validate phone numbers in a standard format (with country code) and checks message length.
-Use sendSMS(phone_number, message) in sms.py to send the message using a reliable SMS library (that you are free to use any).
-
-Outcome Notification:
-
-After attempting to send the SMS, notify users in main.py whether the message was sent successfully.
-
-Handling Invalid Inputs:
-
-Print a response to the user for invalid inputs.
-
-Undeliverable Messages:
-
-Implement handling for scenarios where valid messages can't be delivered due to network issues.
-Simulate this scenario and ensure users receive appropriate notifications.
-Note: The main goal is to showcase your ability to create a functional SMS handling system with validation. Organize your code into logical sections, differentiating between the main application and the SMS handling functions stored in sms.py. 
-
-Example Scenario:
-
-Upon running main.py, the SMS system prompts users for a phone number and a message. The system validates inputs and sends the message when validation is successful. Users receive feedback on the outcome. For input errors like incorrect phone number formatting or too-long messages, the system should provide appropriate responses. Additionally, demonstrate how the system handles undeliverable messages despite valid inputs.
+# This contains Gmail_API which has the functionality to send mail.
+The main file calls the gmail api to send the mail to given mail id
